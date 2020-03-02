@@ -13,6 +13,7 @@ import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 })
 export class CustomCheckboxValuesDirective implements ControlValueAccessor {
   private propagateChange = (_: any) => { };
+  @Input() customCheckboxValues: any;
   @Input() checkedValue = true;
   @Input() uncheckedValue = false;
 
