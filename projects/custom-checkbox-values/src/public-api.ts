@@ -5,3 +5,4 @@
 export * from './lib/custom-checkbox-values.service';
 export * from './lib/custom-checkbox-values.component';
 export * from './lib/custom-checkbox-values.module';
+export * from './lib/custom-checkbox-values.directive';
