@@ -1,0 +1,25 @@
+{
+  "name": "ng-custom-checkbox-values",
+  "version": "1.0.0",
+  "description": "Custom checkbox values like strings or numbers other than default boolean",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/forms": "^8.2.14"
+  },
+  "keywords": [
+    "angular",
+    "custom",
+    "checkbox",
+    "values",
+    "directive",
+    "non boolean values checkbox"
+  ],
+  "author": "Darshan Sagar",
+  "repository": {
+    "type": "git",
+    "url":  "git+https://github.com/darshanlsagar/angular-custom-checkbox-values.git"
+  },
+  "homepage": "https://github.com/darshanlsagar/angular-custom-checkbox-values#readme",
+  "license": "MIT"
+}
