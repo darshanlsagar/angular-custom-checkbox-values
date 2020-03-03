@@ -8,6 +8,6 @@ import { CustomCheckboxValuesDirective } from './custom-checkbox-values.directiv
   declarations: [CustomCheckboxValuesComponent, CustomCheckboxValuesDirective],
   imports: [
   ],
-  exports: [CustomCheckboxValuesComponent]
+  exports: [CustomCheckboxValuesComponent, CustomCheckboxValuesDirective]
 })
 export class CustomCheckboxValuesModule { }
