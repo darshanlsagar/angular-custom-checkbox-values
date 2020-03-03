@@ -1,6 +1,6 @@
 {
   "name": "ng-custom-checkbox-values",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom checkbox values like strings or numbers other than default boolean",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
