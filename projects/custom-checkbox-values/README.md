@@ -9,6 +9,8 @@ $ npm i ng-custom-checkbox-values
 
 ## Usage
 
+Presently works with angular reactive form components only.
+
 Add CustomCheckboxValuesDirective to NgModule
 
 ```ts
@@ -20,14 +22,19 @@ import { CustomCheckboxValuesDirective } from "ng-custom-checkbox-values";
 		CustomCheckboxValuesDirective,
 		...
 	]
-...
+	...
 }
 
 ```
-Provide checkedValue, uncheckedValue with formControl to checkbox field
+Provide checkedValue, uncheckedValue, indeterminateValue with formControl to checkbox field
 
 ```html
-<input checkedValue="Y" uncheckedValue="N" type="checkbox" [formControl]="status"/>
+<input type="checkbox" checkedValue="Y" uncheckedValue="N" indeterminateValue="I" [formControl]="status"/>
+
+```
+OR
+```html
+<input type="checkbox" [checkedValue]="checkVal" [uncheckedValue]="unCheckVal" [indeterminateValue]="indetermVal" [formControl]="status"/>
 
 ```
 
